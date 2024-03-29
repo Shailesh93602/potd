@@ -34,5 +34,5 @@ You don't need to read or print anything. Your task is to complete the function 
 ###### Expected Space Complexity: O(v)
 
 ### Constraints:
-1 <= v <=  $`\10^5`$
-1 <= edges <= $`\2*10^5`$
+1 <= v <=  $`10^5`$
+1 <= edges <= $`2*10^5`$
