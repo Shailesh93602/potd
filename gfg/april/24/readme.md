@@ -7,7 +7,7 @@ x = 3, y = 0
 #### Output: 
 1
 #### Explanation: 
-Path used was -  (3,0)  --> ( 2,0) --> (1,0) --> (0,0).We can see that there is no other path than this, so we return 1.
+Path used was -  $`(3,0)  --> ( 2,0) --> (1,0) --> (0,0).`$We can see that there is no other path than this, so we return 1.
 
 ### Example 2:
 #### Input:
