@@ -2,6 +2,7 @@
 Given two integers n, m and a 2D matrix mat of dimensions nxm, the task is to find the maximum sum of an hourglass.
 An hourglass is defined as a part of the matrix with the following form:
 ![image](https://github.com/Shailesh93602/potd/assets/87556206/3770c08f-e7bf-4d37-b99f-b7fd9c0b0d68)
+
 Return -1 if any hourglass is not found.
 
 ### Example 1:
