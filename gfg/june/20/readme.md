@@ -8,6 +8,7 @@ p = (0,0), q = (0,5), r = (5,0)
 #### Output:
 6
 #### Explanation: 
+![image](https://github.com/Shailesh93602/potd/assets/87556206/51c23919-7130-4e49-a468-c1aa2b71711c)
 As shown in figure, points (1,1) (1,2) (1,3) (2,1) (2,2) and (3,1) are the integral points inside the triangle. So total 6 are there.
 
 #### Input:
