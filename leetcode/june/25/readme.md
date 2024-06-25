@@ -8,6 +8,7 @@ The right subtree of a node contains only nodes with keys greater than the node'
 Both the left and right subtrees must also be binary search trees.
  
 ### Example 1:
+![image](https://github.com/Shailesh93602/potd/assets/87556206/27a6f3ea-e0d4-4663-84c1-77238b6f5dd8)
 #### Input:
 root = [4,1,6,0,2,5,7,null,null,null,3,null,null,null,8]
 #### Output:
