@@ -10,6 +10,7 @@ Note that a node can only be a local maxima/minima if there exists both a previo
 Given a linked list head, return an array of length 2 containing [minDistance, maxDistance] where minDistance is the minimum distance between any two distinct critical points and maxDistance is the maximum distance between any two distinct critical points. If there are fewer than two critical points, return [-1, -1].
 
 ### Example 1:
+![image](https://github.com/Shailesh93602/potd/assets/87556206/1cd6d032-57e9-4d51-b2dd-d61f2e6a2707)
 #### Input:
 head = [3,1]
 #### Output:
@@ -18,6 +19,7 @@ head = [3,1]
 There are no critical points in [3,1].
 
 ### Example 2:
+![image](https://github.com/Shailesh93602/potd/assets/87556206/b2e4cf6f-0a8b-4c7f-b1b5-8f64acc7487e)
 #### Input:
 head = [5,3,1,2,5,1,2]
 #### Output:
@@ -31,6 +33,7 @@ The minimum distance is between the fifth and the sixth node. minDistance = 6 - 
 The maximum distance is between the third and the sixth node. maxDistance = 6 - 3 = 3.
 
 ### Example 3:
+![image](https://github.com/Shailesh93602/potd/assets/87556206/d2ce13eb-9454-47fd-b051-425cdcdb60aa)
 #### Input:
 head = [1,3,2,2,3,2,2,2,7]
 #### Output:
