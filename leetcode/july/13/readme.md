@@ -14,6 +14,7 @@ Return an array containing the health of the remaining robots (in the order they
 Note: The positions may be unsorted.
 
 ### Example 1:
+![image](https://github.com/user-attachments/assets/c2b5606f-56e7-43d4-a2f2-8a4fdbea584d)
 #### Input:
 positions = [5,4,3,2,1], healths = [2,17,9,15,10], directions = "RRRRR"
 #### Output: 
@@ -22,6 +23,7 @@ positions = [5,4,3,2,1], healths = [2,17,9,15,10], directions = "RRRRR"
 No collision occurs in this example, since all robots are moving in the same direction. So, the health of the robots in order from the first robot is returned, [2, 17, 9, 15, 10].
 
 ### Example 2:
+![image](https://github.com/user-attachments/assets/c29c2959-d7c3-42c6-88bc-39a6d311cddd)
 #### Input: 
 positions = [3,5,2,6], healths = [10,10,15,12], directions = "RLRL"
 #### Output:
@@ -30,6 +32,7 @@ positions = [3,5,2,6], healths = [10,10,15,12], directions = "RLRL"
 There are 2 collisions in this example. Firstly, robot 1 and robot 2 will collide, and since both have the same health, they will be removed from the line. Next, robot 3 and robot 4 will collide and since robot 4's health is smaller, it gets removed, and robot 3's health becomes 15 - 1 = 14. Only robot 3 remains, so we return [14].
 
 ### Example 3:
+![image](https://github.com/user-attachments/assets/3836ed80-805e-47f2-b3d1-127f124f793e)
 #### Input: 
 positions = [1,2,5,6], healths = [10,10,11,11], directions = "RLRL"
 #### Output: 
