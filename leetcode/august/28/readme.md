@@ -17,7 +17,6 @@ The 1s colored red in grid2 are those considered to be part of a sub-island. The
 
 ### Example 2:
 ![image](https://github.com/user-attachments/assets/27c4a8cf-947e-4e0b-aecd-1964018a09e9)
-![image](https://github.com/user-attachments/assets/ab2d4133-9368-4f1d-beeb-001fb315b631)
 #### Input:
 grid1 = [[1,0,1,0,1],[1,1,1,1,1],[0,0,0,0,0],[1,1,1,1,1],[1,0,1,0,1]], grid2 = [[0,0,0,0,0],[1,1,1,1,1],[0,1,0,1,0],[0,1,0,1,0],[1,0,0,0,1]]
 #### Output:
