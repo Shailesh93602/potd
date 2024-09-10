@@ -21,7 +21,7 @@ The 1st diagram denotes the initial linked list and the 2nd diagram denotes the 
 There are no more adjacent nodes, so we return the linked list.
 
 ### Example 2:
-![image](https://github.com/user-attachments/assets/09e6afc4-85de-4579-adca-74fdb8cd863b)
+![image](https://github.com/user-attachments/assets/c3492de0-c809-4d12-9c29-0bcf8ba79f38)
 #### Input: 
 head = [7]
 #### Output:
