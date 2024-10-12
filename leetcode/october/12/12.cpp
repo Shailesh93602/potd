@@ -1,48 +1,25 @@
-//{ Driver Code Starts
-#include <bits/stdc++.h>
-using namespace std;
-
-
-// } Driver Code Ends
 class Solution {
-  public:
-    int pairWithMaxSum(vector<int>& arr) {
-        // code here
-        int n = arr.size();
-        if(n < 2) return -1;
-        
-        int maxSum = INT_MIN;
-        
-        for(int i=0; i<n-1; i++) {
-            int sum = arr[i] + arr[i+1];
-            if(sum > maxSum) maxSum = sum;
+public:
+    int minGroups(vector<vector<int>>& intervals) {
+        int start = INT_MAX, end = INT_MIN;
+
+        for(auto interval: intervals) {
+            start = min(start, interval[0]);
+            end = max(end, interval[1]);
         }
-        
-        return maxSum;
+
+        vector<int> pointToCount(end+2, 0);
+        for(auto interval: intervals) {
+            pointToCount[interval[0]]++;
+            pointToCount[interval[1]+1]--;
+        }
+
+        int temp = 0, ans = 0;
+        for(int i=start; i<=end; i++) {
+            temp += pointToCount[i];
+            ans = max(ans, temp);
+        }
+
+        return ans;
     }
 };
-
-//{ Driver Code Starts.
-
-int main() {
-    int tc;
-    cin >> tc;
-    cin.ignore();
-
-    while (tc--) {
-        string input;
-        getline(cin, input);
-
-        stringstream ss(input);
-        vector<int> a;
-        int number;
-        while (ss >> number) {
-            a.push_back(number);
-        }
-
-        Solution obj;
-        int res = obj.pairWithMaxSum(a);
-        cout << res << endl;
-    }
-}
-// } Driver Code Ends
