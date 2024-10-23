@@ -8,6 +8,7 @@ Return the root of the modified tree.
 Note that the depth of a node is the number of edges in the path from the root node to it.
 
 ### Example 1:
+![image](https://github.com/user-attachments/assets/efbdea19-7697-4d0b-855c-8a903a471a31)
 #### Input:
 root = [5,4,9,1,10,null,7]
 #### Output: 
@@ -22,6 +23,7 @@ The diagram above shows the initial binary tree and the binary tree after changi
 - Node with value 7 has cousins with values 1 and 10 so its sum is 11.
 
 ### Example 2:
+![image](https://github.com/user-attachments/assets/71f728a7-269a-4e8e-8132-553d5df1945d)
 #### Input:
 root = [3,1,2]
 #### Output:
