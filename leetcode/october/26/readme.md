@@ -1,26 +1,46 @@
-# Occurence of an integer in a Linked List
-Given a singly linked list and a key, count the number of occurrences of the given key in the linked list.
+# 2458. Height of Binary Tree After Subtree Removal Queries
+You are given the root of a binary tree with n nodes. Each node is assigned a unique value from 1 to n. You are also given an array queries of size m.
 
-### Examples:
-#### Input:
-Linked List: 1->2->1->2->1->3->1, key = 1
-![image](https://github.com/user-attachments/assets/85784f44-61f2-4b24-b539-09ecbb5ba2d0)
-#### Output:
-4
-#### Explanation: 
-1 appears 4 times. 
+You have to perform m independent queries on the tree where in the ith query you do the following:
 
+Remove the subtree rooted at the node with the value queries[i] from the tree. It is guaranteed that queries[i] will not be equal to the value of the root.
+Return an array answer of size m where answer[i] is the height of the tree after performing the ith query.
+
+**Note:**
+The queries are independent, so the tree returns to its initial state after each query.
+The height of a tree is the number of edges in the longest simple path from the root to some node in the tree.
+ 
+### Example 1:
+![image](https://github.com/user-attachments/assets/567667d0-4f47-4d4c-a810-7f6649a6b4a8)
 #### Input:
-Linked List: 1->2->1->2->1, key = 3
-![image](https://github.com/user-attachments/assets/bfac55df-0612-4041-81b3-991d07fc3fa9)
+root = [1,3,4,2,null,6,5,null,null,null,null,null,7], queries = [4]
 #### Output:
-0
+[2]
 #### Explanation:
-3 appears 0 times.
+The diagram above shows the tree after removing the subtree rooted at node with value 4.
+The height of the tree is 2 (The path 1 -> 3 -> 2).
 
-**Expected Time Complexity:** O(n)
-**Expected Auxiliary Space:** O(1)
-
+### Example 2:
+![image](https://github.com/user-attachments/assets/99f05c7b-4ab6-443e-b6ad-6d7271716d5a)
+#### Input: 
+root = [5,8,9,2,1,3,7,4,6], queries = [3,2,4,8]
+#### Output:
+[3,2,3,2]
+#### Explanation: 
+We have the following queries:
+- Removing the subtree rooted at node with value 3. The height of the tree becomes 3 (The path 5 -> 8 -> 2 -> 4).
+- Removing the subtree rooted at node with value 2. The height of the tree becomes 2 (The path 5 -> 8 -> 1).
+- Removing the subtree rooted at node with value 4. The height of the tree becomes 3 (The path 5 -> 8 -> 2 -> 6).
+- Removing the subtree rooted at node with value 8. The height of the tree becomes 2 (The path 5 -> 9 -> 3).
+ 
 ### Constraints:
-1 ≤ number of nodes, key ≤ $`10^5`$
-1 ≤ data of node ≤ $`10^5`$
+The number of nodes in the tree is n.
+2 <= n <= $`10^5`$
+1 <= Node.val <= n
+All the values in the tree are unique.
+m == queries.length
+1 <= m <= min(n, $`10^4`$)
+1 <= queries[i] <= n
+queries[i] != root.val
+
+
