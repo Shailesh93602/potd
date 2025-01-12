@@ -10,6 +10,7 @@ But if locked[i] is '0', you can change s[i] to either '(' or ')'.
 Return true if you can make s a valid parentheses string. Otherwise, return false.
 
 ### Example 1:
+![image](https://github.com/user-attachments/assets/d9c77b8d-8048-4ee5-a731-a4f2f259c415)
 #### Input:
 s = "))()))", locked = "010100"
 #### Output: 
