@@ -14,6 +14,7 @@ You can modify the sign on a cell with cost = 1. You can modify the sign on a ce
 Return the minimum cost to make the grid have at least one valid path.
 
 ### Example 1:
+![image](https://github.com/user-attachments/assets/892bf113-ff55-4838-a899-333f0c13e660)
 #### Input:
 grid = [[1,1,1,1],[2,2,2,2],[1,1,1,1],[2,2,2,2]]
 #### Output:
@@ -24,6 +25,7 @@ The path to (3, 3) is as follows. (0, 0) --> (0, 1) --> (0, 2) --> (0, 3) change
 The total cost = 3.
 
 ### Example 2:
+![image](https://github.com/user-attachments/assets/71c3401f-309f-448b-940c-cd8a32e8d829)
 #### Input:
 grid = [[1,1,3],[3,2,2],[1,1,4]]
 #### Output:
@@ -32,6 +34,7 @@ grid = [[1,1,3],[3,2,2],[1,1,4]]
 You can follow the path from (0, 0) to (2, 2).
 
 ### Example 3:
+![image](https://github.com/user-attachments/assets/7d560645-b1e1-4396-b1eb-393aaab38228)
 #### Input: 
 grid = [[1,2],[4,3]]
 #### Output:
