@@ -8,6 +8,7 @@ At the start of the game, the first robot moves from (0, 0) to (1, n-1), collect
 The first robot wants to minimize the number of points collected by the second robot. In contrast, the second robot wants to maximize the number of points it collects. If both robots play optimally, return the number of points collected by the second robot.
 
 ### Example 1:
+![image](https://github.com/user-attachments/assets/5b6140db-19c4-4e80-aac2-a60106c80fb0)
 #### Input:
 grid = [[2,5,4],[1,5,1]]
 #### Output: 
@@ -18,6 +19,7 @@ The cells visited by the first robot are set to 0.
 The second robot will collect 0 + 0 + 4 + 0 = 4 points.
 
 ### Example 2:
+![image](https://github.com/user-attachments/assets/c2d9cd01-1e84-4ad1-80fc-5ac4176357bd)
 #### Input:
 grid = [[3,3,1],[8,5,2]]
 #### Output:
@@ -28,6 +30,7 @@ The cells visited by the first robot are set to 0.
 The second robot will collect 0 + 3 + 1 + 0 = 4 points.
 
 ### Example 3:
+![image](https://github.com/user-attachments/assets/73ead629-807b-49b5-b1ea-8761a174c14a)
 #### Input:
 grid = [[1,3,1,15],[1,3,3,1]]
 #### Output:
