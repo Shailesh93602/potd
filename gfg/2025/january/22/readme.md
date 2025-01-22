@@ -10,6 +10,7 @@ For example, num1 represented by the linked list : 1 -> 9 -> 0, similarly num2 r
 num1 = 4 - > 5, num2 = 3 -> 4 -> 5
 #### Output:
 3 -> 9 -> 0
+![image](https://github.com/user-attachments/assets/ffca5736-52e6-43dc-a9c1-b788d843a586)
 #### Explanation:
 Given numbers are 45 and 345. There sum is 390.
 
@@ -17,6 +18,7 @@ Given numbers are 45 and 345. There sum is 390.
 num1 = 0 -> 0 -> 6 -> 3, num2 = 0 -> 7 
 #### Output: 
 7 -> 0 
+![image](https://github.com/user-attachments/assets/47be29fd-4273-4b7e-8e09-44b64d883f39)
 #### Explanation:
 Given numbers are 63 and 7. There sum is 70.
 
