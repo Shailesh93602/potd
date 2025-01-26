@@ -14,6 +14,7 @@ true
 #### Explanation:
 The linked list looks like
 A loop is present in the list, and it is removed.
+![image](https://github.com/user-attachments/assets/a713afef-621c-413f-aaf5-dc0601e85c07)
 
 #### Input:
 head = 1 -> 8 -> 3 -> 4, pos = 0
@@ -21,6 +22,7 @@ head = 1 -> 8 -> 3 -> 4, pos = 0
 true
 #### Explanation: 
 The Linked list does not contains any loop. 
+![image](https://github.com/user-attachments/assets/48cdc978-83f2-475d-8fcc-bfb0a529ba24)
 
 #### Input:
 head = 1 -> 2 -> 3 -> 4, pos = 1
@@ -29,6 +31,7 @@ true
 #### Explanation: 
 The linked list looks like 
 A loop is present in the list, and it is removed.
+![image](https://github.com/user-attachments/assets/81f12fe8-0349-4a77-b2cc-e39476c5841b)
 
 ### Constraints:
 1 ≤ size of linked list ≤ $`10^5`$
