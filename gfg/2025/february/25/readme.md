@@ -5,6 +5,7 @@ Your task is to find the largest rectangular area possible in the given histogra
 
 ### Examples:
 #### Input: 
+![image](https://github.com/user-attachments/assets/7e75b089-6471-4399-8e21-16c44e91bc53)
 arr[] = [60, 20, 50, 40, 10, 50, 60]
  Largest-Rectangular-Area-in-a-Histogram
 #### Output:
