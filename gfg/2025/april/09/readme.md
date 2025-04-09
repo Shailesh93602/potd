@@ -14,7 +14,8 @@ V = 5, edges[][] = [[0, 1], [1, 4], [4, 3], [4, 2], [2, 3]]
 [1, 4]
 #### Explanation:
 Removing the vertex 1 or 4 will disconnects the graph as-
- ![image](https://github.com/user-attachments/assets/575dcbb4-129d-46a0-a3b7-10bd4a640872)![image](https://github.com/user-attachments/assets/724c36ff-b10d-4654-89be-cac14e93e783)
+ ![image](https://github.com/user-attachments/assets/575dcbb4-129d-46a0-a3b7-10bd4a640872)
+ ![image](https://github.com/user-attachments/assets/724c36ff-b10d-4654-89be-cac14e93e783)
 
 #### Input:
 V = 4, edges[][] = [[0, 1], [0, 2]]
